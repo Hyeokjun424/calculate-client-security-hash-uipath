@@ -220,7 +220,7 @@
           "lib/net45/ICSharpCode.SharpZipLib.dll": {}
         }
       },
-      "UiPath/19.6.7108.25473": {
+      "UiPath/19.7.7128.27029": {
         "type": "package",
         "compile": {
           "lib/_._": {}
@@ -301,7 +301,7 @@
           }
         }
       },
-      "UiPath.Mail.Activities/1.5.0": {
+      "UiPath.Mail.Activities/1.5.1": {
         "type": "package",
         "dependencies": {
           "BouncyCastle": "1.8.1",
@@ -345,10 +345,19 @@
           },
           "lib/net452/ru/UiPath.Mail.resources.dll": {
             "locale": "ru"
+          },
+          "lib/net452/zh-CN/UiPath.Mail.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net452/zh-CN/UiPath.Mail.Activities.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net452/zh-CN/UiPath.Mail.resources.dll": {
+            "locale": "zh-CN"
           }
         }
       },
-      "UiPath.OCR.Contracts/1.0.0": {
+      "UiPath.OCR.Contracts/2.0.0": {
         "type": "package",
         "compile": {
           "lib/net45/_._": {}
@@ -357,7 +366,7 @@
           "lib/net45/UiPath.OCR.Contracts.dll": {}
         }
       },
-      "UiPath.System.Activities/19.6.0": {
+      "UiPath.System.Activities/19.7.0": {
         "type": "package",
         "dependencies": {
           "CsvHelper": "2.13.5",
@@ -410,15 +419,15 @@
           }
         }
       },
-      "UiPath.UIAutomation.Activities/19.6.0": {
+      "UiPath.UIAutomation.Activities/19.7.0": {
         "type": "package",
         "dependencies": {
           "AvalonEdit": "5.0.3",
           "Extended.Wpf.Toolkit": "2.8.0",
           "Humanizer.Core": "2.4.2",
-          "UiPath": "19.6.7108.25473",
-          "UiPath.OCR.Contracts": "1.0.0",
-          "UiPath.Vision": "1.6.0"
+          "UiPath": "19.7.7128.27029",
+          "UiPath.OCR.Contracts": "2.0.0",
+          "UiPath.Vision": "1.6.1"
         },
         "compile": {
           "lib/net461/_._": {}
@@ -478,7 +487,7 @@
           }
         }
       },
-      "UiPath.Vision/1.6.0": {
+      "UiPath.Vision/1.6.1": {
         "type": "package",
         "compile": {
           "lib/net452/_._": {}
@@ -790,10 +799,10 @@
         "sharpziplib.nuspec"
       ]
     },
-    "UiPath/19.6.7108.25473": {
-      "sha512": "V63r0DNVv1EY8YqGj7kXuLZJxHVbFd5lJiS0FSQGW5d9oPzP9eaPbovoioUg/SXGx/fnjN4KpNMhYwJj4UkI+A==",
+    "UiPath/19.7.7128.27029": {
+      "sha512": "qwGn1866LHnldXmQnKGABNcppK0eVtS5QkUSS3fNMPQ/bbvFRhlZMjjI/UQvRzK/VrrSO3F1fiPaBi0mE7+w7A==",
       "type": "package",
-      "path": "uipath/19.6.7108.25473",
+      "path": "uipath/19.7.7128.27029",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -841,7 +850,7 @@
         "build/UiPath/x64/ShaferFilechck_x64.DLL",
         "build/UiPath/x64/msvcr100.dll",
         "lib/UiPath.Interop.dll",
-        "uipath.19.6.7108.25473.nupkg.sha512",
+        "uipath.19.7.7128.27029.nupkg.sha512",
         "uipath.nuspec"
       ]
     },
@@ -881,10 +890,10 @@
         "uipath.excel.activities.nuspec"
       ]
     },
-    "UiPath.Mail.Activities/1.5.0": {
-      "sha512": "2Mb0m/a5mdAiX7wkDjEd/ufHtRmvyNoxbITwUyEX9ImM9jRbdPizMX0292oE3ujwShCzziCLfq7DUasLpPwVRA==",
+    "UiPath.Mail.Activities/1.5.1": {
+      "sha512": "ZejvTmy0sUuLV5wNuYybsCIz2MUQ1keBTzPMHfcI7gaink07JdtMIirq+GSmBIxL3nfafPwSWYDwNSBb93hg4Q==",
       "type": "package",
-      "path": "uipath.mail.activities/1.5.0",
+      "path": "uipath.mail.activities/1.5.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -904,26 +913,29 @@
         "lib/net452/ru/UiPath.Mail.Activities.Design.resources.dll",
         "lib/net452/ru/UiPath.Mail.Activities.resources.dll",
         "lib/net452/ru/UiPath.Mail.resources.dll",
-        "uipath.mail.activities.1.5.0.nupkg.sha512",
+        "lib/net452/zh-CN/UiPath.Mail.Activities.Design.resources.dll",
+        "lib/net452/zh-CN/UiPath.Mail.Activities.resources.dll",
+        "lib/net452/zh-CN/UiPath.Mail.resources.dll",
+        "uipath.mail.activities.1.5.1.nupkg.sha512",
         "uipath.mail.activities.nuspec"
       ]
     },
-    "UiPath.OCR.Contracts/1.0.0": {
-      "sha512": "8TtVtfYiZ/lNZTPbkaBQmf/NazOYxgiN0UFuAAFRo3iUShUHnX392z3cOSgp+I6+ydtncwlwy/G7bS46qgu8kQ==",
+    "UiPath.OCR.Contracts/2.0.0": {
+      "sha512": "0GdsdJ/Q3ErDF2GlR2vaS7nxeRz4KM9TwSEZyr++9qG0gW86FYiGaNEYQ3NsDPW/z5/AlID11RhEJMwepf8MPA==",
       "type": "package",
-      "path": "uipath.ocr.contracts/1.0.0",
+      "path": "uipath.ocr.contracts/2.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/UiPath.OCR.Contracts.dll",
-        "uipath.ocr.contracts.1.0.0.nupkg.sha512",
+        "uipath.ocr.contracts.2.0.0.nupkg.sha512",
         "uipath.ocr.contracts.nuspec"
       ]
     },
-    "UiPath.System.Activities/19.6.0": {
-      "sha512": "uEWNxYa4VWt7IQ2DRZkvFOq6/j1S45PdgqyLo/5UXzTZPTiRQVo6VjN3bakg6DfJ2IJ20Jad7I6X2ezJj18XTQ==",
+    "UiPath.System.Activities/19.7.0": {
+      "sha512": "2qQSc1s5cOMa3iN86smTv2GaFsR210A0tj9YvF/P0JqbHHS3ihWmhJhkZ76DiCOiWMiuHX55k2+aAhrx2qOb/Q==",
       "type": "package",
-      "path": "uipath.system.activities/19.6.0",
+      "path": "uipath.system.activities/19.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -948,14 +960,14 @@
         "lib/net461/ru/UiPath.System.Activities.resources.dll",
         "lib/net461/zh-CN/UiPath.System.Activities.Design.resources.dll",
         "lib/net461/zh-CN/UiPath.System.Activities.resources.dll",
-        "uipath.system.activities.19.6.0.nupkg.sha512",
+        "uipath.system.activities.19.7.0.nupkg.sha512",
         "uipath.system.activities.nuspec"
       ]
     },
-    "UiPath.UIAutomation.Activities/19.6.0": {
-      "sha512": "VGVSW35mdwh95TLeUJShPoZXr2+h7qhPyFQAqs/yiOrf73cbQMxmEEWI7py2I6ZQtMoHuALsgGjT+tp51FKoBQ==",
+    "UiPath.UIAutomation.Activities/19.7.0": {
+      "sha512": "31kVI6skLCAKLLsQuLJZM1dlzyHC5Y9sVKjhjTd8EDtrLahip9RoVHYTy2wi9CybBJ3C7yGGCZbegE1o/h998Q==",
       "type": "package",
-      "path": "uipath.uiautomation.activities/19.6.0",
+      "path": "uipath.uiautomation.activities/19.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1015,14 +1027,14 @@
         "lib/net461/zh-CN/UiPath.UIAutomation.Activities.Design.resources.dll",
         "lib/net461/zh-CN/UiPath.UiAutomation.Activities.resources.dll",
         "lib/net461/zh-CN/UiPath.Wizards.resources.dll",
-        "uipath.uiautomation.activities.19.6.0.nupkg.sha512",
+        "uipath.uiautomation.activities.19.7.0.nupkg.sha512",
         "uipath.uiautomation.activities.nuspec"
       ]
     },
-    "UiPath.Vision/1.6.0": {
-      "sha512": "Neif/GWzQoejKjhAU8C7eVRsjpte9b5O4NFEhcGydPu/9//JxQp6KxGqcI6CH7rzZs2BY6cKKp9zx9IjINu6yA==",
+    "UiPath.Vision/1.6.1": {
+      "sha512": "017bcpvB1uJ0vyeuqWWkz7R09xdBFQrjMW+0k2WE8zPwphQoortvv0MRs5//m1T8bg6flI5G23huKj8Uio80ug==",
       "type": "package",
-      "path": "uipath.vision/1.6.0",
+      "path": "uipath.vision/1.6.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1092,7 +1104,7 @@
         "lib/net452/UiPath.Vision.MicrosoftCloud.dll",
         "lib/net452/UiPath.Vision.Tesseract.dll",
         "lib/net452/UiPath.Vision.dll",
-        "uipath.vision.1.6.0.nupkg.sha512",
+        "uipath.vision.1.6.1.nupkg.sha512",
         "uipath.vision.nuspec"
       ]
     }
@@ -1102,9 +1114,9 @@
     ".NETFramework,Version=v4.6.1": [
       "UiPath.Credentials.Activities >= 1.1.6479.13204 <= 1.1.6479.13204",
       "UiPath.Excel.Activities >= 2.6.2 <= 2.6.2",
-      "UiPath.Mail.Activities >= 1.5.0 <= 1.5.0",
-      "UiPath.System.Activities >= 19.6.0 <= 19.6.0",
-      "UiPath.UIAutomation.Activities >= 19.6.0 <= 19.6.0"
+      "UiPath.Mail.Activities >= 1.5.1 <= 1.5.1",
+      "UiPath.System.Activities >= 19.7.0 <= 19.7.0",
+      "UiPath.UIAutomation.Activities >= 19.7.0 <= 19.7.0"
     ]
   },
   "packageFolders": {
@@ -1114,9 +1126,9 @@
     "restore": {
       "projectUniqueName": "ACME_ClientSecurityHash",
       "projectName": "ACME_ClientSecurityHash",
-      "projectPath": "C:\\Users\\HP\\Documents\\UiPath\\ACME_ClientSecurityHash\\.local",
+      "projectPath": "C:\\Users\\HP\\Documents\\UiPath\\calculate-client-security-hash-uipath\\.local",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Documents\\UiPath\\ACME_ClientSecurityHash\\.local"
+      "outputPath": "C:\\Users\\HP\\Documents\\UiPath\\calculate-client-security-hash-uipath\\.local"
     },
     "frameworks": {
       "net461": {
@@ -1134,17 +1146,17 @@
           "UiPath.Mail.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.5.0, 1.5.0]"
+            "version": "[1.5.1, 1.5.1]"
           },
           "UiPath.System.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[19.6.0, 19.6.0]"
+            "version": "[19.7.0, 19.7.0]"
           },
           "UiPath.UIAutomation.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[19.6.0, 19.6.0]"
+            "version": "[19.7.0, 19.7.0]"
           }
         }
       }
